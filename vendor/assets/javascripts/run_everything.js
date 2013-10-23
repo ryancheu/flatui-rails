@@ -3,7 +3,7 @@
 $(function () {
     // Custom selects
     if($("select").length > 0) {
-        $("select").dropkick();    
+        $("select").dropkick();
     }
 });
 
@@ -26,7 +26,7 @@ $(document).ready(function() {
             max: 5,
             value: 2,
             orientation: "horizontal",
-            range: "min",
+            range: "min"
         });
     }
 
@@ -52,4 +52,3 @@ $(document).ready(function() {
     });
 
 });
-
